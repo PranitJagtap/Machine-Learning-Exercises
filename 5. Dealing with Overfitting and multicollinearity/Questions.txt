@@ -1,0 +1,26 @@
+EXER 1
+Consider the dataset 'weatherAUS' called Rain in Australia. It describes the weather 
+characteristics on different dates and locations. This dataset contains about 10 years of 
+daily weather observations from many locations across Australia.
+6. Preprocess the data, remove the attributes which were are not useful to predict 
+rain. Also, remove rows with at least one missing value for each of them. 
+7. Calculate the Variance Inflation Factor (VIF) value. VIF is a number that 
+determines whether a variable has multicollinearity or not (starts from 1, and it 
+has no upper limit. If the number gets larger, it means the variable has huge 
+multicollinearity on it.). 
+8. Remove multicollinearities by creating new features. Find the features that have 
+paired values and create the new feature which is the difference value between 
+those pairs.
+9. Remove features that have a VIF value above 5.
+10.Build a regression model to perform the Rain prediction. Also, tabulate accuracy 
+of the prediction models, before and VIF computation.
+EXER 2
+Consider the 'HousePrice.csv' dataset which describes the features and sale price of a 
+house. Build a regression model using regularization to predict the value of the 
+properties.
+4. Perform the preprocessing if required, scale the train and test data using standard 
+scaler.
+5. Split the dataset into train size of 70% and test size of 30% and Apply the Ridge 
+and Lasso regression and fit the model containing all independent variables.
+6. Make predictions on test data “HousePriceTest.csv” and tabulate performance of 
+both models on unseen data.

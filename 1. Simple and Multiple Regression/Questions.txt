@@ -1,0 +1,20 @@
+Exercise 1
+1. Write a user defined function ‘myFnLinReg(x,y)’ to perform Simple Linear 
+Regression given one predictor attribute and one response attribute. The 
+function should return the coefficients of the straight line.
+2. Use mtcars data set and consider the attributes mpg and weight. Split data into 
+train and test sets (70 %,30%). Put training data set to ‘myFnLinReg(x,y)’ to 
+build a linear regression model to predict mpg given the weight of the car.
+3. What is the mpg of a car, whose weight is 6.7?
+4. Compute and print accuracy measures such as RMSE and R2 for the test set. 
+5. Apply the stochastic gradient descent and mini batch gradient descent 
+algorithms to enhance the accuracy and visualize the cost function.
+
+Exercise 2
+1. Use the boston.csv dataset and determine the best 5 features to predict 
+‘MEDV’. 
+2. Using sklearn.linear_model, find the multiple regression model for the 
+boston.csv dataset using the best 4 features. (from sklearn.linear_model import 
+LinearRegression) 
+3. Find the accuracy of the model using appropriate metrics using 80, 20 split for 
+training and test

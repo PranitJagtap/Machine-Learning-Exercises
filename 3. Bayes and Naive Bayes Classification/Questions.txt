@@ -1,0 +1,22 @@
+EXER 1
+6. Use the titanic data set, perform preprocessing by deal with missing values, drop 
+irrelevant attributes.
+7. Use the scikit learn pipelines to perform the preprocessing - standardizing, 
+encoding and model fitting in one step. 
+8. Perform Bayes classification using cross validation.
+9. Tabulate using relevant measures of accuracy , precision, recall.
+10. Visualize the ROC curve and comment on performance
+EXER 2
+Download the "Womens Clothing E-Commerce Reviews.zip" file and answer the 
+following:
+5. Preprocessing Pipeline:
+a. Find any null values are present or not, If present remove those data.
+b. Remove the data that have less than 5 reviews.
+c. Clean the data and remove the special characters and replace the 
+contractions with its expansion. Convert the uppercase character to lower 
+case. Also, remove the punctuations.
+6. Separate the columns into dependent and independent variables (or features and 
+labels). Then you split those variables into train and test sets (80:20).
+7. Apply the Naïve Bayes Classification Algorithm on Sentiment category to
+predict if item is recommended
+8. Tabulate accuracy in terms of precision recall and F1 score.

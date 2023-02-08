@@ -1,0 +1,22 @@
+EXER 1
+2. Use the German credit rating dataset “German Credit Data.csv” , Decision tree
+classifier to predict good or bad credit. Use “sklearn.model_selection” and 
+GridSearchCV to search the hyperparameter values and report the most optimal 
+one. Configure the grid search to search for optimal parameters:
+• Splitting criteria: gini or entropy.
+• Maximum depth of decision tree ranging from 2 to 10.
+• The searching of optimal parameter will be validated using 10-fold cross 
+validation and the most optimal parameter will be chosen based on ROC 
+AUC score.
+2. Visualize the tree using graphviz software.
+3. Display the text representation of the rules learnt.
+EXER 2
+Download fuel consumption dataset "FuelConsumption.csv", which contains modelspecific fuel consumption ratings and estimated carbon dioxide emissions. 
+• Select the features 'ENGINESIZE', 'CYLINDERS', 
+'FUELCONSUMPTION_COMB', 'CO2EMISSIONS' to use for building the 
+model. Plot Emission values with respect to Engine size.
+• split the data into training and test sets (70:30) to create a model using training 
+set, evaluate the model using test set, and use model to predict unknown value.
+• Try to use a polynomial regression with the dataset of degree 2, 3, 4, 5 and verify 
+the accuracy by calculating Mean absolute error, Residual sum of squares, R2-
+score.
